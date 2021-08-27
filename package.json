@@ -1,0 +1,24 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open",
+    "cypresspath": "cypress cache path",
+    "runupdate": "cypress run --record --key 0b7e48fa-b095-4e55-81db-61b1e6d3fbd6 ",
+    "run": "cypress run --headless --group Cities --browser chrome",
+    "Grup": "cypress run --group Cities --browser chrome"
+  },
+  "keywords": [
+    "testing",
+    "automation"
+  ],
+  "author": "awwal",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^5.1.0"
+  }
+}
+ 
