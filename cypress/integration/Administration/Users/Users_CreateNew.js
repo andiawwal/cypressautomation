@@ -50,7 +50,7 @@ describe('Users - Create New',function () {
         // })
 
         it('98:Verify Click Create New button', function () {
-            cy.url().should('eq','http://stg-voucher.srinapps2.com/administration/users/new')
+            cy.url().should('eq','http://asdasd.com/administration/users/new')
         });
 
         it('99:Verify Create New User UI',function () {
