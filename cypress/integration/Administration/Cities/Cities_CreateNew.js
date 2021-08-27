@@ -23,6 +23,7 @@ describe('Cities - Create New',function () {
 
             cy.get('[for=cityName]').contains('Name')
             cy.get('[type=text][id="cityName"]').should("exist")
+            cy.get('[type=text][id="cityName"]').should("exist")
 
             cy.get('[for=cityStatus]').contains('Active City')
             cy.get('[class="iCheck-helper"]').should("exist")
