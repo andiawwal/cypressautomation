@@ -24,7 +24,7 @@ describe('Promo Request Collapse',function (){
         cy.get('#revenueModelHeader').contains('Revenue Model').click()
         cy.get('#revenueModelBody').should("be.visible")
 
-        cy.get('#sgiFeatureHeader').contains('SGI Feature').click()
+        cy.get('#sgiFeatureHeader').contains('SGI Featurea').click()
         cy.get('#sgiFeatureBody').should("be.visible")
 
     })
